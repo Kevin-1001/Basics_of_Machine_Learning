@@ -1,6 +1,8 @@
 # An Introduction to Supervised Learning
 
 Supervised learning is a fundamental concept in machine learning (ML) where the algorithm learns from labeled data, consisting of input-output pairs, to predict the output for new inputs. It's akin to a teacher supervising the learning process of a student, where the teacher provides labeled examples for the student to learn from.
+
+
 ![image](https://github.com/Kevin-1001/Basics_of_Machine_Learning/assets/133469619/e1398a38-c7cf-4bf0-b096-b14f6deaab0b)
 
 ## Basic Components:
@@ -25,25 +27,25 @@ Supervised learning is a fundamental concept in machine learning (ML) where the 
 
 ### Algorithms for Classification:
 
-1. **Logistic Regression**:
+i. **Logistic Regression**:
    - **Principle**: Despite its name, logistic regression is used for binary classification tasks. It models the probability that a given input belongs to a particular class using a logistic function, which maps any real-valued input into the range [0, 1].
    - **Working**: Logistic regression fits a linear decision boundary to the input space and applies the logistic function to transform the output into probabilities. It then classifies instances based on a chosen threshold (e.g., 0.5).
    - **Features**: Logistic regression is computationally efficient, interpretable, and suitable for problems with linearly separable classes or those where interpretability is crucial.
    - **Extensions**: Multinomial logistic regression extends binary logistic regression to handle multiple classes.
 
-2. **Support Vector Machines (SVM)**:
+ii. **Support Vector Machines (SVM)**:
    - **Principle**: SVM is a powerful algorithm for both linear and nonlinear classification tasks. It aims to find the optimal hyperplane that separates different classes in the feature space while maximizing the margin between the classes.
    - **Working**: SVM constructs a hyperplane that best separates the classes by maximizing the margin, which is the distance between the hyperplane and the nearest data points (support vectors) from each class.
    - **Features**: SVM is effective in high-dimensional spaces, robust against overfitting, and can capture complex decision boundaries using kernel tricks to handle nonlinear relationships.
    - **Extensions**: SVM can be extended to handle multi-class classification using techniques like one-vs-rest or one-vs-one.
 
-3. **Decision Trees and Random Forests**:
+iii. **Decision Trees and Random Forests**:
    - **Principle**: Decision trees recursively partition the input space based on the feature values, making decisions at each internal node based on splitting criteria such as Gini impurity or information gain.
    - **Working**: Decision trees split the input space into regions, and each instance belongs to the majority class within its region. Random forests are ensembles of multiple decision trees trained on bootstrapped samples of the dataset, where each tree provides a vote for the final prediction.
    - **Features**: Decision trees are interpretable, handle both numerical and categorical data, and can capture nonlinear relationships and interactions between features. Random forests reduce overfitting and improve predictive performance by combining multiple trees.
    - **Extensions**: Ensemble methods like gradient boosting and XGBoost further enhance the predictive power of decision trees by sequentially fitting models to the residuals of previous models.
 
-4. **Neural Networks (including CNNs)**:
+iv. **Neural Networks (including CNNs)**:
    - **Principle**: Neural networks, especially deep learning architectures like Convolutional Neural Networks (CNNs), learn hierarchical representations from raw data by stacking multiple layers of interconnected neurons.
    - **Working**: CNNs, specifically designed for image data, use convolutional layers to extract spatial features from input images and pooling layers to reduce dimensionality. Fully connected layers then combine these features for classification.
    - **Features**: CNNs can automatically learn hierarchical representations from raw data, capture spatial dependencies in images effectively, and achieve state-of-the-art performance in various image classification tasks.
@@ -75,25 +77,25 @@ Supervised learning is a fundamental concept in machine learning (ML) where the 
 
 ### Algorithms for Regression:
 
-1. **Linear Regression**:
+i. **Linear Regression**:
    - **Principle**: Linear regression models the relationship between input features and output labels as a linear function, where the predicted output is a weighted sum of the input features plus a bias term.
    - **Working**: Linear regression minimizes the residual sum of squares (RSS) or mean squared error (MSE) between predicted and actual values to find the optimal coefficients that best fit the data.
    - **Features**: Linear regression is interpretable, computationally efficient, and suitable for problems with linear relationships between features and the target variable.
    - **Extensions**: Polynomial regression extends linear regression by including polynomial terms to capture nonlinear relationships between features and the target variable.
 
-2. **Support Vector Regression (SVR)**:
+ii. **Support Vector Regression (SVR)**:
    - **Principle**: SVR extends SVM to regression tasks by finding a hyperplane that minimizes the error between predicted and actual values while still staying within a certain margin.
    - **Working**: SVR aims to find a hyperplane in a high-dimensional feature space that has the maximum distance to the actual values. It uses a loss function that penalizes deviations from the target variable while allowing for a specified tolerance level.
    - **Features**: SVR is effective in high-dimensional spaces, robust against overfitting, and can capture complex relationships between features and the target variable using kernel tricks.
    - **Extensions**: SVR can be adapted to handle nonlinear relationships by using nonlinear kernels like radial basis function (RBF) or polynomial kernels.
 
-3. **Decision Trees and Random Forests**:
+iii. **Decision Trees and Random Forests**:
    - **Principle**: Decision trees recursively partition the input space based on feature values to predict continuous numerical values at the leaf nodes.
    - **Working**: Decision trees split the input space into regions, and the predicted value for each instance is the average of the target variable within its region. Random forests aggregate predictions from multiple decision trees to reduce overfitting and improve predictive performance.
    - **Features**: Decision trees are interpretable, handle both numerical and categorical data, and can capture nonlinear relationships and interactions between features. Random forests provide robust predictions and are less sensitive to noise and outliers.
    - **Extensions**: Ensemble methods like gradient boosting and XGBoost further enhance the predictive power of decision trees by sequentially fitting models to the residuals of previous models.
 
-4. **Neural Networks**:
+iv. **Neural Networks**:
    - **Principle**: Neural networks learn complex nonlinear relationships between input features and output labels by stacking multiple layers of interconnected neurons.
    - **Working**: Neural networks use activation functions to introduce nonlinearity into the model, allowing them to capture complex patterns in the data. They minimize a loss function (e.g., mean squared error) using backpropagation to adjust the model's parameters and improve predictive performance.
    - **Features**: Neural networks are highly flexible and can approximate any continuous function given enough data and computational resources. They can automatically learn hierarchical representations from raw data and achieve state-of-the-art performance in various regression tasks.
