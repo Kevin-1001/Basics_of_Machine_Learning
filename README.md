@@ -3,6 +3,8 @@
 ## Introduction:
 Machine learning (ML) serves as a cornerstone of contemporary artificial intelligence (AI), revolutionizing data analysis, pattern recognition, and decision-making. This scholarly exposition embarks on a rigorous investigation into the foundational principles that underpin the field of ML. Through systematic literature review and theoretical analysis, this inquiry delves into supervised and unsupervised learning paradigms, elucidating their theoretical underpinnings and practical applications.
 
+![image](https://github.com/Kevin-1001/Basics_of_Machine_Learning/assets/133469619/4d7807ea-140f-4743-bd5d-6411d8cbc9ee)
+
 ## Supervised Learning:
 Supervised learning involves training models on labeled data to predict outcomes based on input features. This section explores fundamental algorithms:
 - **Linear Classification:** Categorizes data into classes using linear decision boundaries.
