@@ -45,3 +45,5 @@ Unsupervised learning is a branch of machine learning where algorithms are taske
 ## Conclusion
 
 In summary, unsupervised learning is a powerful approach in machine learning for discovering hidden patterns and structures within data, enabling insights and understanding without the need for labeled examples. It encompasses a variety of techniques tailored to different data analysis tasks, ranging from clustering and dimensionality reduction to anomaly detection and generative modeling. Overall, unsupervised learning plays a crucial role in exploring and extracting meaningful insights from unlabeled data across various domains, offering a wide range of applications in data analysis, pattern recognition, and decision-making.
+
+![image](https://github.com/Kevin-1001/Basics_of_Machine_Learning/assets/133469619/635b961b-5d7d-48b3-b0b9-2814ea9782a4)
