@@ -135,6 +135,7 @@ iv. **Neural Networks**:
 ## Conclusion
 In summary, supervised learning is a powerful paradigm in machine learning, enabling the development of predictive models for a wide range of applications by learning from labeled data. Through careful data collection, model training, evaluation, and deployment, supervised learning algorithms can make accurate predictions and drive valuable insights.
 
+![image](https://github.com/Kevin-1001/Basics_of_Machine_Learning/assets/133469619/f23b128f-ef8a-4708-ae80-1db3d5147112)
 
 
 
