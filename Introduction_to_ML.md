@@ -1,3 +1,7 @@
+
+![image](https://github.com/Kevin-1001/Basics_of_Machine_Learning/assets/133469619/bdee7b86-537c-4669-82cf-aba9867c132b)
+
+
 # Introduction to Machine Learning
 
 Machine learning (ML) stands as a pivotal subfield within the realm of artificial intelligence (AI), focusing on the development of algorithms and models that empower computational systems to autonomously glean insights, discern patterns, and make informed predictions or decisions based on data. In stark contrast to traditional software engineering paradigms reliant on explicit programming instructions, machine learning algorithms derive intelligence from data, undergoing refinement and adaptation through iterative exposure to information.
